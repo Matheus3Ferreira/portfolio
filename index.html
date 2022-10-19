@@ -1,96 +1,189 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=">
-  <title>Curriculo</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Allerta&family=Raleway&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
-  <div class="container-pai">
-    <div class="container-esquerda">
 
-      <section>
-        <img src="https://avatars.githubusercontent.com/u/69362122?s=460&u=72814a1da6a528f51778eb483cda30787da438a2&v=4"
-          alt="user-photo"><br>
-        <h2>Sobre mim</h2>
-        <p>Iniciei meus estudos de tecnologia ano passado, e atualmente estou me esforçando para aprender
-          desenvolvimento de softwares.
-          Sou apaixonado por robôs e quero um dia poder trabalhar com o que mais gosto, quero aprender com o mercado e
-          virar um bom desenvolvedor back-end.</p>
-      </section>
+        <!-- CABEÇALHO -->
+        <header>
+            <div class="container">
+                <div class="linha">
 
-      <section class="contact">
-        <h2>Contato</h2>
-        <ul>
-          <li><a href="tel:551332244214">(13) 3224-4214</a></a></li>
-          <li><a href="tel:5513920004406">(13) 92000-4406</a></li>
-          <li><a href="mailto:matheus.s.f@outlook.com.br">matheus.s.f@outlook.com.br</a></li>
-          <li><a href="https://www.linkedin.com/in/matheus-da-silva-ferreira-84b83519a/">LinkedIN</a> / <a
-              href="https://github.com/Matheus2798">GitHub</a></li>
-          <li>Rua São Domingos, 490<br>Morro São Bento, Santos-SP</li>
-        </ul>
-      </section>
-    </div>
+                    <!--DIV DA FOTO DE PERFIL-->
+                    <div class="coluna coluna-esquerda">
+                        <figure>
+                            <img src="https://scontent-gru2-2.cdninstagram.com/v/t51.2885-19/s320x320/117037686_3675115475933628_5968134798076454584_n.jpg?tp=1&_nc_ht=scontent-gru2-2.cdninstagram.com&_nc_ohc=A6tiiS81gxEAX_Oq9X4&edm=ABfd0MgAAAAA&ccb=7-4&oh=147e2c0b89c983b67cdbe8d73fc03f2c&oe=6095BFE6&_nc_sid=7bff83" alt="">
+                            <figcaption class="hidden">Matheus da Silva Ferreira</figcaption>
+                            <!--Figcaption serve para ficar mais fácil para os leitores de pagina-->
+                        </figure>
+                    </div>
 
-    <div class="container-direita">
+                    <!--INFORMAÇÕES PESSOAIS-->
+                    <div class="coluna coluna-direita">
+                        <!-- BOTÃO DARK MODE -->
+                        <div class="toggle-dark-mode-position">
+                            <label class="switch">
+                                <input type="checkbox" class="input-dark-mode" onclick="myFunction()">
+                                <span class="slider round"></span>
+                            </label>
+                        </div>
+                        <h1>Matheus da Silva Ferreira</h1>
+                        <p>Estudante de desenvolvimento de sistemas</p>
 
-      <section class="professional-experience">
-        <h1>Matheus da Silva Ferreira</h1>
+                        <ul>
+                            <li>
+                                <a href="mailto:matheus.s.f@outlook.com.br">
+                                    <strong>E-mail: </strong>matheus.s.f@outlook.com.br</a>
+                            </li>
+                            <li>
+                                <a href="tel:5513920004406">
+                                    <strong>Telefone: </strong> (13) 92000-4406
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.google.com/maps/place/R.+São+Domingos,+2-82+-+Morro+de+São+Bento,+Santos+-+SP/@-23.937077,-46.3416097,17z/data=!3m1!4b1!4m5!3m4!1s0x94ce049e8c419423:0xeba651b6e987241e!8m2!3d-23.9370002!4d-46.3394608">
+                                    <strong>Endereço: </strong>Rua São Domingos, 490, Morro São Bento -
+                                    Santos-SP</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
 
-        <h2><strong>Experiência profissional</strong></h2>
-
-        <h3>1° Cartório de Registro Civil de Santos – Auxiliar Administrativo<br>
-          Maio/2014 até Março de 2017. (2 anos e 11 meses)</h3>
-        <p>Comecei como menor aprendiz pelo CAMPS e atuei auxiliando os clientes nas senhas durante a abertura do
-          expediente, atendimento no balcão, organizava dos registros e arquivos, office boy, emitia e entregava
-          certidões, organizava as fichas de firma, datilografava anotações e averbações nos registros de nascimento
-          para os escreventes.</p>
         
-        <h3>MEDGRUPO – Monitor de Eventos.<br>
-          Junho/2017 até Janeiro 2019 (1 ano e 8 meses)
-        </h3>
-        <p>Atuei administrando um ambiente de aulas para residência médica em auditórios, onde eu organizava o acesso
-          dos alunos, fazia rondas durante as aulas para verificar equipamentos, temperatura e qualidade da aula,
-          controlava o estoque de apostilas e materiais de escritório.</p>
-      </section>
+        <main>
+            <div class="container">
+                
+                <div class="linha">
+                    <!-- CONTEUDO LADO ESQUERDO -->
+                    <div class="coluna coluna-esquerda">
 
-      <section>
-        <h3><strong>Hard skills</h3></strong>
-        
-        <ul>
-          <li>Programação estruturada: Python, C/C++, C#.</li>
-          <li>Familiarizado com: HTML, CSS.</li>
-        </ul>
-        
-      </section>
+                        <section>
+                            <h2>Perfil profissional</h2>
+                            <p>Iniciei meus estudos de tecnologia ano passado, e atualmente estou me esforçando para aprender
+                                desenvolvimento de softwares.
+                                Sou apaixonado por robôs e quero evoluir minhas habilidades com o mercado e me tornar um desenvolvedor back-end.</p>
+                        </section>
 
-      <section>
-        <h3><strong>Soft skills</h3></strong>
-        
-        <ul>
-          <li>Trabalho em equipe, proatividade, força de vontade, curiosidade.</li>
-          <li>Em melhoria: Autonomia, liderança, competencia intelectual.</li>
-        </ul>
-        
-      </section>
+                        <section>
+                            <h2>Hard Skills</h2>
+                            <ul>
+                                <li>HTML5</li>
+                                <li>CSS3</li>
+                                <li>JavaScript</li>
+                                <li>Python</li>
+                                <li>C/C++/C#</li>
+                            </ul>
+                        </section>
 
-      <section>
-        <h3><strong>Formações e certificados</h3></strong>
-        
-        <ul>
-          <li>Ensino médio completo (2014)</li>
-          <li>Ensino superior incompleto - Analise e Desenvolvimento de Sistemas (2020-2021)</li>
-          <li>Introdução a criação de sites - Digital Innovation One (2021)</li>
-        </ul>
-      </section>
+                        <section>
+                            <h2>Certificados</h2>
+                            <ul>
+                                <li><a href="https://certificates.digitalinnovation.one/27B94B2B">Introdução a criação de Websites com HTML5 e CSS3 - Digital Innovation One (Março/2021)</a></li>
+                                <li><a href="https://certificates.digitalinnovation.one/2205229E">Introdução ao Git e Github - Digital Innovation One (Março/2021)</a></li>
+                            </ul>
+                        </section>
+                    </div>
 
-    </div>
-  </div>
+                    <!-- CONTEUDO LADO DIREITO -->
+                    <div class="coluna coluna-direita">
+                        <section>
+                            <h2>Soft Skills</h2>
+                            <ul>
+                                <li>Trabalho em equipe</li>
+                                <li>Proatividade</li> 
+                                <li>Força de vontade</li>
+                                <li>Curiosidade</li>                                
+                            </ul>
+                            <h2>Em melhoria</h2>
+                            <ul>
+                                <li>Autonomia</li>
+                                <li>Liderança</li> 
+                                <li>Competência intelectual</li>                                
+                            </ul>
+                        </section>
+
+                        <section>
+                            <h2>Formação</h2>
+                            <ul>
+                                <li>
+                                    <h3>Analise e Desenvolvimento de Sistemas<strong>01/01/2020 - 01/12/2021</strong></h3>
+                                    <p>Universidade Paulista (UNIP)</p>
+                                </li>
+                            </ul>
+                        </section>
+                        <section>
+                            <h2>Meus projetos</h2>
+                            <ul>
+                                <li><a href="https://github.com/Matheus2798/NIM">Jogo NIM - Python</a></li>
+                                <li><a href="https://github.com/Matheus2798/Dio.Bank">Sistema de transações bancárias simples - C#</a></li>  
+                                <li><a href="https://matheus2798.github.io/WebCurriculo/">Meu curriculo com experiências profissionais - HTML, CSS e JS.</a></li> 
+                            </ul>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <div class="container">
+
+                <nav>
+                    <ul class="info-contato">
+                        <li>
+                            <a href="mailto:matheus.s.f@outlook.com.br">E-mail: matheus.s.f@outlook.com.br</a>
+                        </li>
+                        <li>
+                            <a href="tel:5513920004406">(13) 92000-4406</a>
+                        </li>
+                        <li>
+                            <a href="#">Rua São Domingos, 490, Morro São Bento - Santos-SP</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <nav>
+                    <ul class="redes-sociais">
+                        <li>
+                            <a href="https://www.linkedin.com/in/matheus-da-silva-ferreira-84b83519a/">
+                                <img src="styles/img/linkedin-in-brands.svg" alt="">
+                                <p>Linkedin</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/Matheus2798">
+                                <img src="styles/img/github-square-brands.svg" alt="Github">
+                                <p>Github</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/matheus.dasilva.37266">
+                                <img src="styles/img/facebook-square-brands.svg" alt="Facebook">
+                                <p>Facebook</p>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+
+            </div>
+        </footer>
+    <script>
+        function myFunction() {
+           var element = document.body;
+           element.classList.toggle("dark-mode");
+        }
+    </script>
 </body>
 
 </html>
