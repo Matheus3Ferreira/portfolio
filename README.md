@@ -1,20 +1,26 @@
-<h1 align="center">dotFerreira || Ferreira.dev</h1>
+# Ferreira.dev
+## My first personal website. Access here 👇
+    https://ferreiradev.netlify.app/
 
-My first deployed website. Now I'm working on pages layout Portfolio, Contact and Feedback.
-#
-## 🤖 Technologys and frameworks
 
+# Technologies and techniques 🤖
+- React
+- Sass
 - Typescript
-- ReactJS
-- React Router Dom v6
-- SCSS
-- Google Fonts
-- Heroku
+- Font Awesome
+- Story Set
+- EmailJS
+- Netlify (deploy)
 
-# Where I can see the progress?
-You can acess the my website in here 👉 https://ferreiradev.herokuapp.com/
+## Why I made this?
 
-# It is finished?
-Noooo! There are a lot of things that I want to make, but I'm working every day to make it happen.
+Because I challenge me a lot of times to make a project, but I didn't have any idea what to do, so, I m ake this simple website, to show what I like to do. I'm learning about development frontend and backend, and english too, and this was a challenge for me to learn more.
 
-Developed by Matheus da Silva Ferreira 👋
+## What this website does?
+
+It is a way to show what I do with a portfolio and a simple way to send me an email.
+
+</br>
+
+## Feel free to send me a feedback, this will be very helpful. 💪
+

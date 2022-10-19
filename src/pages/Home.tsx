@@ -1,21 +1,34 @@
-import server from "../assets/server.svg";
-import "../styles/home.scss";
-import { Button } from "../components/Button";
-import { useNavigate } from "react-router-dom";
+import profile from "../assets/imgs/profile.svg";
+import working from "../assets/imgs/Working.gif";
+import "../style/home.scss"
 
-export function Home() {
-    const navigate = useNavigate();
+function Home(){
     return (
-        <div>
-            <h1 className="home-title">Hello, it's me, Matheus.<br/>Javascript and Typescript developer.</h1>
-            <h2 className="grid-title">Wanna know more about my skills?<br/>Check out about me. 👇</h2>
-            <div className="flex-container">
-                <Button className="button-home button" onClick={() => navigate('/aboutme')}>About me</Button>
-                <div className="storyset">
-                    <img src={server} alt="server"/>
-                    <a href="https://storyset.com/internet">Internet illustrations by Storyset</a>
+        <div className="home">
+            <img src={profile} alt="Matheus Ferreira" className="profile" />
+            <h2>Matheus da Silva Ferreira</h2>
+            <p>Student of web development</p>
+            <section>
+                <div className="about-me">
+                    <p>
+                        Searching for my first job at development of software.<br/>
+                        I build this site to show what I love to do, and to you have a
+                        channel to find me.
+                    </p>
+                    <p>
+                        I’m able to learn everything, but now I’m working in
+                        open-source projects with Javascript and
+                        Typescript.<br/>
+                        See my portfolio bellow. 👇
+                    </p>
                 </div>
-            </div>
+                <div className="rafiki-working">
+                    <img src={working} alt="" /> <br/>
+                    <a href="https://storyset.com/work">Work illustrations by Storyset</a>
+                </div>
+            </section>
         </div>
     )
 }
+
+export default Home;

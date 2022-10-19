@@ -1,32 +1,18 @@
-import { SideBar } from "./components/SideBar";
-import "./styles/global.scss";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-import { AboutMe } from "./pages/AboutMe";
-import { Home } from "./pages/Home";
-import { Logo } from "./components/Logo";
-import Projects from "./pages/Projects";
-import ContactMe from "./pages/ContactMe";
-import Feedback from "./pages/Feedback";
-import NotFound from "./pages/NotFound";
+import React from 'react';
+import Header from './components/Header';
+import Contact from './pages/Contact';
+import Home from './pages/Home';
+import Portfolio from './pages/Portfolio';
+import "./style/app.scss"
 
 function App() {
   return (
-    <BrowserRouter>
-      <div className="page-layout">
-        <SideBar />
-        <main>
-        <Logo/>
-        <Routes>
-          <Route path='*' element={<NotFound />} />
-          <Route index element={<Home />} />
-          <Route path="/aboutme"element={<AboutMe />}></Route>
-          <Route path="/projects"element={<Projects />}></Route>
-          <Route path="/contactme"element={<ContactMe />}></Route>
-          <Route path="/feedback"element={<Feedback />}></Route>
-        </Routes> 
-        </main>
-      </div>
-    </BrowserRouter>
+    <div className="App">
+      <Header />
+      <Home />
+      <Portfolio />
+      <Contact />
+    </div>
   );
 }
 
