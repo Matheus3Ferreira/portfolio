@@ -7,15 +7,7 @@ import "./style/styles.css";
 import Maintence from "./pages/maintence/Maintence";
 
 function App() {
-  return (
-    // <div className="App">
-    //   <Header />
-    //   <Home />
-    //   <Portfolio />
-    //   <Contact />
-    // </div>
-    <Maintence />
-  );
+  return <Maintence />;
 }
 
 export default App;
