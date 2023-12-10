@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* ######################### header ######################### */
+
+header {
+  padding: 80px 90px;
+}
+
+body {
+  background: linear-gradient(
+    238deg,
+    rgba(251, 254, 105, 0.35) 0%,
+    rgba(251, 254, 105, 0.15) 49.63%,
+    rgba(251, 254, 105, 0) 69.38%
+  );
+  height: 100vh;
+}
+
+#logo {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 24px;
+}
+
+/* ######################### main ######################### */
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+}
+
+.text-main a button {
+  padding: 18px 32px;
+  display: flex;
+  gap: 12px;
+  font-family: "JetBrains Mono", monospace;
+  background: #44bf0a;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  border-radius: 9px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.text-main a button:active {
+  filter: brightness(120%);
+}
+
+/* ######################### text ######################### */
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 48px;
+}
+
+.gradient-span {
+  background: linear-gradient(269deg, #f90 0.31%, #b0be0d 74.92%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  line-height: 28px;
+}
+
+.text-main p {
+  margin: 29px 0;
+}
+
+/* ######################### footer ######################### */
+
+footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer ul {
+  display: flex;
+  gap: 9px;
+  list-style: none;
+}
